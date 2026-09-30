@@ -48,3 +48,4 @@ const student: [string, number] = ['Rahim', 21]
 // console.log(student)
 
 
+

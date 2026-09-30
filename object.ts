@@ -37,3 +37,40 @@ const me:{
     fvFood:['mango', 'banana']
 }
 console.log(me)
+
+
+type studentType = {
+    name:string
+    readonly Id: number
+    department:string
+}
+
+const studentInfo3: studentType ={
+    name:"Student 3",
+    Id:8778787,
+    department:'Computer'
+}
+console.log('S3', studentInfo3)
+
+interface studentStructure {
+    name:string
+    readonly Id : number
+    department: string
+}
+const rahimInfo : studentStructure = {
+    name:"Rahim",
+    Id:7897987,
+    department:"Computer"
+}
+console.log('RAhim info: ', rahimInfo)
+
+
+type User =
+  | {
+      role: "student";
+      course: string;
+    }
+  | {
+      role: "teacher";
+      subject: string;
+    };
