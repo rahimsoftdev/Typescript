@@ -28,7 +28,7 @@ interface StudentInfo {
 type studentTotal = Student | StudentInfo
 
 
-type role = 'user' | 'admin' | 'gust'
+type role = 'user' | 'admin' | 'manager'
 
 
 function unionTypeFun(a: string | number): string | number {
