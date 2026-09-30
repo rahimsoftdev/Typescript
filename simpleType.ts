@@ -6,4 +6,5 @@ let userName: string = "Rahim Sikdar";
 let userAge: number = 20;
 let isDeveloper: boolean = true;
 
-console.log(userName, userAge, isDeveloper)
+console.log(userName, userAge, isDeveloper, 8798798798n)
+
