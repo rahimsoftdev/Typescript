@@ -11,3 +11,11 @@ function roleChecker(role:Role){
     }
     role
 }
+
+
+function funInfinit():never{
+    while(true){
+        console.log('its runnning')
+    }
+}
+funInfinit()
