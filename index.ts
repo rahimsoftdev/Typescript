@@ -108,3 +108,24 @@
 // }
 
 // adminChecker({ name: "kawsar", id: 2 })
+
+
+// type admin1 = {
+//     name:"Rahim",
+//     id:1,
+//     department:'computer'
+// }
+// type admin2 = {
+//     name:"Musarof",
+//     id:2,
+// }
+
+// function adminChecker (admin: admin1 | admin2){
+//     if('department' in admin){
+//         console.log(`${admin.id} rahim sikdar is change the object`)
+//         return
+//     }
+//     console.log('musarof change the code')
+// }
+
+// adminChecker({name:"Rahim", id:1, department:"computer"})
