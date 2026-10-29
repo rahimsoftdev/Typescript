@@ -29,4 +29,5 @@ console.log(readonlyArray)
 // readonlyArray.push(3)   Error
 
 let namedTuple : [name:string, id:number] = ['rahim',7]
+namedTuple.push('ha')
 console.log(namedTuple)
